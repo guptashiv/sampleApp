@@ -1,0 +1,110 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+
+/*  typography */
+
+h1, h2, h3, h4, h5, h6 {
+	line-heigth: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: serif;
+	font-weight: Bold;
+}
+
+h2 {
+	font-size:1.3em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: #111;
+	font-family: serif;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+	text-align: start;
+}
+
+
+/* header */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7;
+	color: #fff;
+	text-transform: lowercase;
+	padding-top: 0px 10px;
+	font-weight: bold;
+	
+}
+
+#logo:hover {
+	color: #123;
+	text-decoration: none;
+}
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 2px solid #baeaea;
+  color: #777;
+}
+
+footer a {
+  color: #2;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+
